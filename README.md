@@ -13,3 +13,5 @@ For more information, see https://adventofcode.com/2023
 
 I am not a programmer; I am a hacker.  My code will reflect this.  Feedback is
 welcome!  Drop me an email, or use GH Issues.
+
+Join my private leaderboard: 1076625-719053d2
