@@ -66,12 +66,15 @@ for game in gamestats:
   max_green = 13
   max_blue = 14
   max_colors = find_max_per_color(game)
-  if (max_colors[0] <= max_red) and (max_colors[1] <= max_green) and (max_colors[2] <= max_blue):
-    game_possible = True
-    print ("Game", game[0], ": Is possible.")
-    tally += game[0]
-  else:
-    print ("Game", game[0], ": Is NOT possible.")
+  #if (max_colors[0] <= max_red) and (max_colors[1] <= max_green) and (max_colors[2] <= max_blue):
+  #  game_possible = True
+  #  print ("Game", game[0], ": Is possible.")
+  #  tally += game[0]
+  #else:
+  #  print ("Game", game[0], ": Is NOT possible.")
+  power = (max_colors[0] * max_colors[1] * max_colors[2])
+  print ("Game", game[0], power)
+  tally += power
 
-print("Tally of possible games:", tally)
+print("Tally of games:", tally)
 
